@@ -1,0 +1,103 @@
+/* 登录 YangFangLing 2020年3月4日 */
+.login {
+    padding: 80px 0;
+    background-color: #F9F9F9;
+    .login-con {
+        width: 935px;
+        margin: 0 auto;
+        .login-left {
+            float: left;
+            width: 334px;
+            height: 334px;
+            padding-right: 100px;
+            border-right: 1px #eee solid;
+            img {
+                display: block;
+                width: 334px;
+                height: 334px;
+            }
+        }
+        .login-right {
+            float: right;
+            width: 400px;
+            height: 100px;
+            .login-title {
+                border-bottom: 1px solid #ebebeb;
+                padding-bottom: 30px;
+                ul li {
+                    float: left;
+                    font-size: 18px;
+                    width: 50%;
+                    text-align: center;
+                    border-left: 1px #ccc solid;
+                    box-sizing: border-box;
+                    &:first-child {
+                        border-left: none;
+                    }
+                    a {
+                        color: #767676;
+                    }
+                    &.active a {
+                        color: #0186d1;
+                    }
+                }
+            }
+            .login-form {
+                margin-top: 30px;
+                input {
+                    height: 40px;
+                    border-radius: 2px;
+                    border: 1px #ccc solid;
+                    width: 100%;
+                    padding: 6px 12px;
+                    box-sizing: border-box;
+                    font-size: 14px;
+                    margin-bottom: 12px;
+                }
+                button {
+                    background-color: #0076b9;
+                    width: 100%;
+                    height: 40px;
+                    border-radius: 2px;
+                    color: #fff;
+                    border: none;
+                    margin-top: 15px;
+                    cursor: pointer;
+                }
+                .login-img {
+                    text-align: center;
+                    img {
+                        margin: 0 12px;
+                        display: inline-block;
+                        width: 36px;
+                        height: 36px;
+                    }
+                }
+                h3 {
+                    font-size: 14px;
+                    color: #787878;
+                    text-align: center;
+                    margin: 25px 0;
+                    i {
+                        width: 130px;
+                        height: 1px;
+                        background-color: #d5d1d1;
+                        display: inline-block;
+                        margin: 0 10px;
+                        vertical-align: middle;
+                    }
+                }
+                h4 {
+                    font-size: 14px;
+                    color: #333;
+                    text-align: center;
+                    margin-top: 25px;
+                    a {
+                        color: #177DCC;
+                    }
+                }
+            }
+        }
+    }
+}
+/* 登录 end */

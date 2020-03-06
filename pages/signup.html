@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="../sass/common.css">
+    <link rel="stylesheet" href="../sass/login.css">
+</head>
+<body>
+    
+    <!-- Header YangFangLing 2020年3月3日 -->
+    <div class="Header"></div>
+    <!-- Header end -->
+
+    <!-- 登录 YangFangLing 2020年3月4日 -->
+    <div class="login">
+        <div class="login-con clearfix">
+            <div class="login-left">
+                <img src="../images/inpage/logo.png" alt="">
+            </div>
+            <div class="login-right">
+                <div class="login-title">
+                    <ul class="clearfix">
+                        <li><a href="./login.html">账号登录</a></li>
+                        <li class="active"><a href="./signup.html">欢迎注册</a></li>
+                    </ul>
+                </div>
+                <div class="login-form">
+                    <input type="text" placeholder="注册账号" class="user">
+                    <input type="text" placeholder="注册密码" class="pass">
+                    <button class="register">立即注册</button>
+                    <h4>已有帐号? <a href="./login.html">立即登录</a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 登录 end -->
+
+    <!-- Footer YangFangLing 2020年3月3日 -->
+    <div class="Footer"></div>
+    <!-- Footer end -->
+
+    <!-- js引用 YangFangLing 2020年3月3日 -->
+    <script src="../lib/jquery/dist/jquery.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/ajax.js"></script>
+
+    <script>
+        var user = document.querySelector('.user');
+        var pass = document.querySelector('.pass');
+        var register = document.querySelector('.register');
+
+        register.onclick = function (){
+            ajax({
+                url: '/login2',
+                type: 'get',
+                data: 'act=add&user='+user.value+'&pass='+pass.value,
+                success: function (data){
+                    var json = JSON.parse(data);
+                    alert(json.msg);
+                }
+            });
+        }
+    </script>
+    <!-- js引用 end -->
+</body>
+</html>

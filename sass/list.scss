@@ -1,0 +1,83 @@
+/* 列表 YangFangLing 2020年3月4日 */
+.zx-container {
+    padding-bottom: 50px;
+    background-color: #f5f5f5;
+    text-align: center;
+    ul {
+        margin-top: -14px;
+    }
+    ul li {
+        float: left;
+        width: 297px;
+        height: 312px;
+        background-color: #fff;
+        margin-left: 14px;
+        margin-top: 14px;
+        position: relative;
+        top: 0;
+        transition: .2s all;
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        box-sizing: border-box;
+        padding: 20px 0;
+        &:hover {
+            top: -5px;
+            box-shadow: 0 8px 16px #ddd;
+        }
+        &:nth-child(4n+1) {
+            margin-left: 0;
+        }
+        .text h3 {
+            font-size: 14px;
+            color: #787878;
+            margin: 20px 0 15px;
+        }
+        .text p {
+            color: #fc6822;
+        }
+        .pic {
+            width: 180px;
+            height: 180px;
+            margin: 0 auto;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
+/* 列表 end */
+
+/* 分类 YangFangLing 2020年3月4日 */
+.fenlei {
+    border-top: 1px #ddd solid;
+    border-bottom: 1px #ddd solid;
+    padding: 15px 0;
+    font-size: 14px;
+    span {
+        color: #666;
+    }
+    a {
+        color: #767676;
+        margin: 0 10px;
+        &.active {
+            color: #fc6822;
+        }
+    }
+}
+/* 分类 end */
+
+/* 排序 YangFangLing 2020年3月4日 */
+.paixun {
+    background-color: #f5f5f5;
+    padding: 30px 0;
+    color: #787878;
+    a {
+        color: #767676;
+        margin: 0 10px;
+        &.active {
+            color: #fc6822;
+        }
+    }
+}
+/* 排序 end */

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "ZTE 中兴路由器 5G CPE",
+    "dese":"高通骁龙X50平台、5G高速网络",
+    "list_price": 2999,
+    "img":"https://image.myzte.com/5c/a7/aacec0aac084.jpg!s?32962_OW800_OH800"
+  },
+  {
+    "id": 2,
+    "name": "【两只装】ZTE中兴 Mesh路由器MF18A ",
+    "dese":" 分布式路由器 子母路由器",
+    "list_price": 699,
+    "img":"https://image.myzte.com/73/3c/3731e754945a.png!s?72367_OW800_OH800"
+  },
+  {
+    "id": 3,
+    "name": "ZTE中兴 4G全网通随身 MF920U5 ",
+    "dese":"4G全网通无线wifi",
+    "list_price": 299,
+    "img":"https://image.myzte.com/d2/a9/a1234341e23d.jpg!s?47902_OW800_OH800"
+  },
+  {
+    "id": 4,
+    "name": "ZTE中兴 4G室内无线路由器",
+    "dese":" 千兆家用WiFi 穿墙王 覆盖无忧 无线路由器",
+    "list_price": 399,
+    "img":"https://image.myzte.com/1f/c1/cff5788e2d1c.jpg!s?48442_OW800_OH800"
+  }
+]

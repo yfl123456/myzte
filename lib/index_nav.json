@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "name": "手机",
+    "dat1":"天机系列",
+    "dat2":"Blade系列",
+    "dat3":"远航系列",
+    "list": [
+      {
+        "list_id": 101,
+        "list_name": "天机系列",
+        "list_url": "https://image.myzte.com/59/bc/b6992bba7b0d.jpg?78210_H750_W750"
+      },
+      {
+        "list_id": 106,
+        "list_name": "Blade系列",
+        "list_url": "https://image.myzte.com/03/1c/173f97483d18.png?78235_H750_W750"
+      },
+      {
+        "list_id": 105,
+        "list_name": "远航系列",
+        "list_url": "https://image.myzte.com/b3/a3/a53719f59ad4.png?17669_H800_W800"
+      },
+      {
+        "list_id": 104,
+        "list_name": "其他手机",
+        "list_url": "https://image.myzte.com/15/9a/9b5232e00240.jpg?17736_H800_W800"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "智能终端",
+    "dat1":"便携投影",
+    "dat2":"智能穿戴",
+    "dat3":"网络盒子",
+    "list": [
+      {
+        "list_id": 201,
+        "list_name": "便携投影",
+        "list_url": "https://image.myzte.com/45/90/96536abaafa8.jpg?39591_H800_W800"
+      },
+      {
+        "list_id": 205,
+        "list_name": "网络盒子",
+        "list_url": "https://image.myzte.com/41/fb/f11422f22d99.jpg?39697_H800_W800"
+      },
+      {
+        "list_id": 206,
+        "list_name": "智能家居",
+        "list_url": "https://image.myzte.com/ec/2a/22cb1a263913.jpg?74072_H118_W118"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "耳机/音箱",
+    "dat1":"蓝牙耳机",
+    "dat2":"蓝牙音箱",
+    "dat3":"有线耳机",
+    "list": [
+      {
+        "list_id": 102,
+        "list_name": "蓝牙耳机",
+        "list_url": "https://image.myzte.com/fb/9e/9ab595bbcb60.jpg?39849_H800_W800"
+      },
+      {
+        "list_id": 108,
+        "list_name": "有线耳机",
+        "list_url": "https://image.myzte.com/2d/11/17dbec03b103.jpg?39898_H800_W800"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "数据线/电源适配器",
+    "dat1":"充电器",
+    "dat2":"数据线",
+    "dat3":"车载充电",
+    "list": [
+      {
+        "list_id": 56,
+        "list_name": "充电器",
+        "list_url": "https://image.myzte.com/a7/6f/677579ae5950.jpg?39935_H800_W800"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "保护套/后盖/贴膜",
+    "dat1":"皮套",
+    "dat2":"贴膜",
+    "dat3":"保护袋",
+    "list": [
+      {
+        "list_id": 29,
+        "list_name": "皮套",
+        "list_url": "https://image.myzte.com/c2/87/8f2fe502a64a.jpg?40166_H800_W800"
+      },
+      {
+        "list_id": 18,
+        "list_name": "贴膜",
+        "list_url": "https://image.myzte.com/4b/ea/edbc02e5696e.jpg?40308_H800_W800"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "数据线/电源适配器",
+    "dat1":"存储卡",
+    "dat2":"读卡器",
+    "dat3":"移动电源",
+    "list": [
+      {
+        "list_id": 19,
+        "list_name": "储存卡",
+        "list_url": "https://image.myzte.com/6a/d1/daaeac7ae7ff.jpg?40405_H800_W800"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "服务及周边",
+    "dat1":"车载支架",
+    "dat2":"自拍杆",
+    "dat3":"手机支架",
+    "list": [
+      {
+        "list_id": 20,
+        "list_name": "车载支架",
+        "list_url": "https://image.myzte.com/36/8e/8c69cba2febb.jpg?40528_H800_W800"
+      }
+    ]
+  }
+]

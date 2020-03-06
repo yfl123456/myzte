@@ -1,0 +1,327 @@
+/* banner YangFangLing 2020年3月2日 */
+.banner {
+    position: relative;
+    overflow: hidden;
+    ul.list-unstyled {
+        position: absolute;
+        left: 100px;
+        top: 0;
+        z-index: 9;
+        width: 250px;
+        height: 480px;
+        background-color: rgba(248, 247, 247, 0.8);
+        li {
+            padding: 13px 20px 13px 22px;
+            height: 68.5px;
+            box-sizing: border-box;
+            &:hover {
+                background-color: #fff;
+            }
+            h3 a {
+                font-size: 14px;
+                color: #333;
+            }
+            p {
+                margin-top: 8px;
+                a {
+                    color: #999;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .goods-block {
+        width: 320px;
+        height: 480px;
+        background-color: #fff;
+        position: absolute;
+        left: 350px;
+        top: 0;
+        overflow: hidden;
+        z-index: 9;
+        display: none;
+        .item {
+            float: left;
+            width: 50%;
+            overflow: hidden;
+            padding: 15px;
+            box-sizing: border-box;
+            .pic {
+                width: 50px;
+                height: 50px;
+                display: inline-block;
+                vertical-align: middle;
+                img {
+                    width: 100%;
+                }
+            }
+            a {
+                color: #717171;
+                margin-left: 10px;
+                vertical-align: middle;
+                &:hover {
+                    color: #fc6628;
+                }
+            }
+        }
+    }
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #eee;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    img {
+        display: block;
+        width: 100%;
+        height: 480px;
+    }
+}
+/* banner end */
+
+/* 智能硬件 YangFangLing 2020年3月2日 */
+.zx-znyj {
+    padding: 50px 0;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    .title h3 {
+        font-size: 22px;
+        color: #333;
+        float: left;
+        span {
+            font-size: 14px;
+            color: #333;
+            margin-left: 5px;
+        }
+    }
+    .zx-list {
+        margin-top: 30px;
+        ul li {
+            width: 300px;
+            float: left;
+            text-align: center;
+            background-color: #fff;
+            margin-left: 10px;
+            padding: 20px 0;
+            position: relative;
+            top: 0;
+            transition: all 0.2s;
+            &:hover {
+                box-shadow: 0 8px 16px #ddd;
+                top: -5px;
+            }
+            &:first-child {
+                margin-left: 0;
+            }
+            .pic {
+                width: 180px;
+                height: 180px;
+                margin: 0 auto;
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+            h3 {
+                font-size: 15px;
+                color: #333;
+                margin: 20px 0 5px;
+            }
+            h4 {
+                font-size: 12px;
+                color: #b0b0b0;
+            }
+            p {
+                color: #cc0000;
+                font-size: 14px;
+                font-weight: bold;
+                margin-top: 15px;
+                del {
+                    font-weight: normal;
+                    color: #767676;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+.zx-pjzqls ul {
+    display: none;
+    &.on {
+        display: block;
+    }
+}
+/* 智能硬件 end */
+
+/* 配件专区 YangFangLing 2020年3月2日 */
+.zx-pjzq {
+    padding: 0 0 10px 0;
+    overflow: hidden;
+    .title {
+        ul{
+            float: right;
+            li {
+                float: left;
+                font-size: 16px;
+                margin-right: 20px;
+                &.active a{
+                    color: #fc6628;
+                    border-color:#fc6628;
+                }
+                a {
+                    color: #767676;
+                    display: block;
+                    border-bottom: 3px solid transparent;
+                    padding-bottom: 40px;
+                }
+            }
+        }
+        .More {
+            float: right;
+            font-size: 16px;
+            color: #787878;
+            &:hover {
+                color: #fc6628;
+            }
+            img {
+                vertical-align: middle;
+            }
+        }
+    }
+    .zx-list {
+        margin-top: 0;
+    }
+}
+/* 配件专区 end */
+
+/* 精品推荐 YangFangLing 2020年3月2日 */
+.zx-jptj {
+    background-color: #F5F5F5;
+    padding-top: 50px;
+    overflow: hidden;
+    .title h3 {
+        font-size: 22px;
+        color: #333;
+        float: left;
+        span {
+            font-size: 14px;
+            color: #333;
+            margin-left: 5px;
+        }
+    }
+    .zx-list {
+        margin-top: 30px;
+        .pic-img {
+            float: left;
+            width: 300px;
+            height: 610px;
+            a {
+                display: block;
+                img {
+                    display: block;
+                }
+            }
+        }
+        .zx-text {
+            float: right;
+            width: 920px;
+            ul {
+                margin-top: -10px;
+                li {
+                    float: left;
+                    text-align: center;
+                    width: 300px;
+                    height: 300px;
+                    background-color: #fff;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    position: relative;
+                    top: 0;
+                    transition: all 0.2s;
+                    &:nth-child(3n+1){
+                        margin-left: 0;
+                    }
+                    &:hover {
+                        box-shadow: 0 8px 16px #ddd;
+                        top: -5px;
+                    }
+                    .pic {
+                        width: 180px;
+                        height: 180px;
+                        margin: 0 auto;
+                        img {
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+                    h3 {
+                        font-size: 15px;
+                        color: #333;
+                        margin: 20px 0 5px;
+                    }
+                    h4 {
+                        font-size: 12px;
+                        color: #b0b0b0;
+                    }
+                    p {
+                        color: #cc0000;
+                        font-size: 14px;
+                        font-weight: bold;
+                        margin-top: 15px;
+                        del {
+                            font-weight: normal;
+                            color: #767676;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* 精品推荐 end */
+
+/* 今日推荐 YangFangLing 2020年3月2日 */
+.zx-jstj {
+    padding: 30px 0;
+    background-color: #fff;
+    overflow: hidden;
+    .title h3 {
+        font-size: 22px;
+        color: #333;
+        float: left;
+        span {
+            font-size: 14px;
+            color: #333;
+            margin-left: 5px;
+        }
+    }
+    .zx-list {
+        margin-top: 30px;
+        ul li {
+            float: left;
+            margin-left: 6px;
+            &:first-child {
+                margin-left: 0;
+            }
+            a {
+                display: block;
+                img {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+/* 今日推荐 end */

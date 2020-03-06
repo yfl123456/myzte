@@ -1,0 +1,326 @@
+/* 公共样式 YangFangLing 2020年3月2日 */
+body, html, ul, ol, li, dl, dt, dd, p, span, i, em, strong, b, h1, h2, h3, h4, h5, h6, form, img, input, textarea, select, figure, button {
+    padding: 0;
+    margin: 0; 
+}
+
+body {
+    font: 12px "微软雅黑","宋体","Arial Narrow";
+    color: #787878;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; 
+}
+
+ul li, ol li {
+    list-style: none; 
+}
+
+a {
+    text-decoration: none;
+    color: #787878; 
+}
+
+i, em {
+    font-style: normal; 
+}
+
+img {
+    border: none;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 1; 
+}
+
+.content {
+    width: 1230px;
+    margin: 0 auto; 
+}
+/* 公共样式 end */
+
+/* Header YangFangLing 2020年3月2日 */
+.Header-Top {
+    background-color: #f8f8f8;
+    height: 40px;
+    line-height:40px;
+    ul {
+        float: left;
+        li {
+            float: left;
+            width: 60px;
+            text-align: center;
+            a {
+                display: block;
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+    }
+    ol {
+        float: right;
+        li {
+            float: left;
+            position: relative;
+            a {
+                display: block;
+                padding: 0 10px;
+                &:hover {
+                    color: #000;
+                }
+                img {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+            .remind {
+                background-color: #fff;
+                border: 1px #EDEDED solid;
+                width: 312px;
+                height: 58px;
+                line-height: 58px;
+                position: absolute;
+                top: 40px;
+                right: 0;
+                z-index: 9;
+                font-size: 14px;
+                color: #333;
+                text-align: center;
+                display: none;
+                cursor: pointer;
+                img {
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-left: 3px;
+                }
+            }
+        }
+    }
+}
+.Header-Bot {
+    padding: 25px 0;
+    position: relative;
+    a.logo {
+       float: left;
+       img {
+           display: block;
+       }
+    }
+    ul {
+        float: left;
+        margin-left: 200px;
+        > li {
+            float: left;
+            padding: 0 15px;
+            line-height: 35px;
+            > a {
+                color: #333;
+                font-size: 14px;
+                display: block;
+                &:hover {
+                    color: #0086d1;
+                }
+            }
+        }
+    }
+    .Down-Nav {
+        position: absolute;
+        top: 85px;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        background-color: #fff;
+        display: none;
+        ol li {
+            float: left;
+            padding: 20px 0;
+            line-height: normal;
+            text-align: center;
+            position: relative;
+            top: 0;
+            transition: .8s all;
+            &:hover {
+                top:-10px;
+            }
+            &:last-child img {
+                border: none;
+            }
+            a {
+                display: block;
+                img {
+                    width: 180px;
+                    border-right: 1px #ddd solid;
+                }
+                p {
+                    color: #666;
+                    line-height: normal;
+                    padding: 10px 0 5px;
+                }
+                .goods {
+                    color: #fc6628;
+                    font-weight: bold;
+                    line-height: normal;
+                    del {
+                        font-size: 14px;
+                        color: #333;
+                        font-weight: normal;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+    form {
+        float: right;
+        position: relative;
+        input {
+            width: 140px;
+            height: 30px;
+            border: 1px #b8b8b8 solid;
+            color: #333;
+            font-size: 14px;
+            padding: 0 40px 0 10px;
+            outline: none;
+            border-radius: 2px;
+        }
+        button {
+            width: 32px;
+            height: 32px;
+            display: block;
+            border: none;
+            background: url("../images/common/Search.png") no-repeat center center;
+            outline: none;
+            cursor: pointer;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+}
+/* Header end */
+
+/* footer YangFangLing 2020年3月2日 */
+.Footer {
+    overflow: hidden;
+}
+.Footer-Top {
+    padding: 50px 0 35px;
+    border-bottom: 1px #DFDFDF solid;
+    ul li {
+        float: left;
+        width: 307px;
+        text-align: center;
+        font-size: 16px;
+        color: #333;
+        img {
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+    }
+}
+.Footer-Center {
+    padding: 45px 0 45px 85px;
+    border-bottom: 1px #DFDFDF solid;
+    dl {
+        float: left;
+        width: 100px;
+        margin-left: 70px;
+        &:first-child {
+            margin-left: 0;
+        }
+        dt a {
+            font-size: 16px;
+            color: #000;
+        }
+        dd a {
+            display: block;
+            color: #999;
+            margin-top: 20px;
+            &:hover {
+                color: #fc6628;
+            }
+        }
+    }
+    .call-box {
+        float: right;
+        margin-top: 20px;
+        a {
+            background-color: #0086d1;
+            width: 102px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 2px;
+            display: block;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            img {
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+        }
+        p {
+            color: #787878;
+            margin-top: 20px;
+        }
+    }
+}
+.Footer-Bottom {
+    padding: 20px 0;
+    text-align: center;
+    ul {
+        margin-bottom: 10px;
+        li {
+            font-size: 14px;
+            padding: 0 10px;
+            display: inline-block;
+            a {
+                color: #767676;
+            }
+        }
+    }
+    p {
+        color: #C2C2C2;
+        margin-top: 5px;
+        a {
+            color: #C2C2C2;
+        }
+        img {
+            width: 20px;
+            vertical-align: middle;
+        }
+    }
+}
+/* footer end */
+
+/* 返回顶部 YangFangLing 2020年3月2日 */
+.stop{
+    width: 60px;
+    height: 60px;
+    background-color: #ccc;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    z-index: 9;
+    border-radius: 3px 0 0 3px;
+    display: none;
+    cursor: pointer;
+    span {
+        color: #fff;
+        font-size: 16px;
+        display: block;
+        width: 45px;
+        margin: 8px auto 0px;
+    }
+}
+/* 返回顶部 end */

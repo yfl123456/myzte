@@ -1,0 +1,138 @@
+/* 详情页 YangFangLing 2020年3月5日 */
+.detail {
+    padding: 50px 0;
+    border-bottom: 10px solid #f6f6f6;
+    .detail-let {
+        float: left;
+        width: 400px;
+        .zx-xiaotu {
+            padding: 10px 40px !important;
+        }
+        .swiper-slide img {
+            width: 100%;
+            height: 100%;
+        }
+        .huise-let {
+            color: #999;
+            right: 0;
+        }
+        .huise-rig {
+            color: #999;
+            left: 0;
+        }
+        .swiper-container {
+            width: 400px;
+            height: 400px;
+        }
+        .gallery-top {
+            height: 80%;
+            width: 100%;
+        }
+        .gallery-thumbs {
+            height: 20%;
+            box-sizing: border-box;
+        }
+        .gallery-thumbs .swiper-slide {
+            width: 75px !important;
+            height: 75px;
+            border: 1px #E0E0E0 solid;
+        }
+        .gallery-thumbs .swiper-slide-thumb-active {
+            border: 1px #fc6628 solid;
+        }
+    }
+    .detail-rig {
+        float: right;
+        width: 600px;
+        h3 {
+            font-size: 24px;
+            color: #333;    
+        }
+        p {
+            color: #fc6628;
+            font-size: 30px;
+            margin-top: 20px;
+            font-weight: bold;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 30px;
+        }
+        .zx-btn {
+            margin-top: 30px;
+            border-top: 1px #eee solid;
+            padding-top: 30px;
+        }
+        .zx-btn button {
+            width: 125px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background-color: #ffeded;
+            border: 1px solid #fc6628;
+            color: #fc6628;
+            border-radius: 0px;
+            font-size: 16px;
+            cursor: pointer;
+            outline: none;
+            margin-right: 15px;
+            &:hover {
+                background-color: #ec4f0f;
+                color: #fff;
+            }
+            &.ljgm {
+                background-color: #fc6628;
+                a {
+                    color: #fff;
+                }
+                &:hover {
+                    background-color: #b0220e;
+                }
+            }
+        }
+        .alert-warning {
+            color: #8a6d3b;
+            background-color: #fcf8e3;
+            border: 1px solid transparent;
+            border-color: #faebcc;
+            border-radius: 2px;
+            padding: 15px;
+            box-sizing: border-box;
+            margin-top: 50px;
+            font-size: 14px;
+        }
+        .yanse,.cpzsl {
+            margin-top: 30px;
+            strong {
+                font-size: 14px;
+                color: #333;
+            }
+            span {
+                border: 1px #fc6628 solid;
+                width: 60px;
+                height: 40px;
+                line-height: 40px;
+                display: inline-block;
+                text-align: center;
+                font-size: 14px;
+                color: #fc6628;
+                cursor: pointer;
+            }
+        }
+    }
+}
+/* 详情页 end */
+
+/* 当前位置 YangFangLing 2020年3月5日 */
+.zx-bread {
+    background-color: #F5F5F5;
+    padding: 15px 0;
+    span {
+        color: #333;
+    }
+    a {
+        margin: 0 5px;
+        &:hover {
+            color: #fc6628;
+        }
+    }
+}
+/* 当前位置 end */

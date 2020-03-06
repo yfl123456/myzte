@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "ZTE 中兴路由器 5G CPE",
+    "dese":"Axon 10 Pro 八曲面水滴全面屏",
+    "list_price": 5799,
+    "img":"https://image.myzte.com/01/c6/c712bfcbc622.jpg!s?74968_OW800_OH800"
+  },
+  {
+    "id": 2,
+    "name": "ZTE A2020 Pro 中兴天机Axon 10 Pro",
+    "dese":" 高通骁龙855",
+    "list_price": 3199,
+    "img":"https://image.myzte.com/5c/c4/c0cd2e6492a1.jpg!s?95740_OW800_OH800"
+  },
+  {
+    "id": 3,
+    "name": "ZTE中兴 Blade 20smart 孝心版",
+    "dese":"5000毫安大电池，AI三摄，6.49英寸大屏",
+    "list_price": 899,
+    "img":"https://image.myzte.com/19/89/819442182cce.jpg!s?80307_OW800_OH800"
+  },
+  {
+    "id": 4,
+    "name": "ZTE中兴 Blade A7s",
+    "dese":"赠送壳膜套装+耳机 4000mAh大电池，高清广角三摄",
+    "list_price": 699,
+    "img":"https://image.myzte.com/6a/e0/e9a4183ccb74.jpg!s?80297_OW800_OH800"
+  },
+  {
+    "id": 5,
+    "name": "ZTE中兴 Blade A7 ",
+    "dese":"赠送保护套装",
+    "list_price": 499,
+    "img":"https://image.myzte.com/25/48/42540a5d99ff.jpg!s?37013_OW800_OH800"
+  },
+  {
+    "id": 1,
+    "name": "ZTE 中兴路由器 5G CPE",
+    "dese":"Axon 10 Pro 八曲面水滴全面屏",
+    "list_price": 699,
+    "img":"https://image.myzte.com/01/c6/c712bfcbc622.jpg!s?74968_OW800_OH800"
+  }
+]
