@@ -1,0 +1,1 @@
+"use strict";$(".Header").load("../pages/header.html"),$(".Footer").load("../pages/footer.html");

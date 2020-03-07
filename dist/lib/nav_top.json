@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Axon系列",
+    "list": [
+      {
+        "list_id": 101,
+        "list_name": "中兴天机Axon",
+        "list_price": 4999,
+        "list_url": "https://image.myzte.com/01/c6/c712bfcbc622.jpg!l?74968_OW800_OH800"
+      },
+      {
+        "list_id": 106,
+        "list_name": "ZTE中兴 天机Axon 9 Pro",
+        "list_price": 1299,
+        "list_url": "https://image.myzte.com/90/33/3b0eee3c6997.jpg!l?26057_OW800_OH800"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Blade系列",
+    "list": [
+      {
+        "list_id": 201,
+        "list_name": "中兴天机Axon",
+        "list_price": 1599,
+        "list_url": "https://image.myzte.com/01/c6/c712bfcbc622.jpg!l?74968_OW800_OH800"
+      },
+      {
+        "list_id": 205,
+        "list_name": "ZTE中兴 天机Axon 9 Pro ",
+        "list_price": 1299,
+        "list_url": "https://image.myzte.com/5c/c4/c0cd2e6492a1.jpg!l?95740_OW800_OH800"
+      },
+      {
+        "list_id": 206,
+        "list_name": "中兴天机Axon 10 Pro蓝色",
+        "list_price": 699,
+        "list_url": "https://image.myzte.com/5c/c4/c0cd2e6492a1.jpg!l?95740_OW800_OH800"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Axon系列",
+    "list": [
+      {
+        "list_id": 101,
+        "list_name": "中兴天机Axon",
+        "list_price": 4999,
+        "list_url": "https://image.myzte.com/01/c6/c712bfcbc622.jpg!l?74968_OW800_OH800"
+      },
+      {
+        "list_id": 106,
+        "list_name": "ZTE中兴 天机Axon 9 Pro",
+        "list_price": 1299,
+        "list_url": "https://image.myzte.com/90/33/3b0eee3c6997.jpg!l?26057_OW800_OH800"
+      }
+    ]
+  }
+]

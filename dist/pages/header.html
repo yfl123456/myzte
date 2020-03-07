@@ -1,0 +1,63 @@
+<div class=Header-Top><div class="content clearfix"><ul class=clearfix><li><a href="">手机版</a></li><li><a href="">企业采购</a></li><li><a href="">商品公告</a></li><li><a href="">意见反馈</a></li></ul><ol class=clearfix><li><a href=./login.html>登录</a></li><li><a href=./signup.html>注册</a></li><li class=zx-gwc><a href=cart.html><img src=../images/common/shopcart.png alt=""> 购物车</a><div class=remind>购物车中还没有商品,快快选购吧! <img src=../images/common/smile.png alt=""></div></li></ol></div></div><div class=Header-Bot><div class="content clearfix"><a href=./index.html class=logo><img src=../images/common/zx-logo-v1.png alt=""></a><ul class=clearfix><li><a href=./index.html>首页</a></li><li class=a1><a href="">Axon系列</a></li><li class=a1><a href="">Blade系列</a></li><li><a href="">Nubia</a></li><li><a href="">服务</a></li><li><a href="">中兴社区</a></li></ul><div class=Down-Nav><div class=content><ol class=clearfix></ol></div></div><form action=""><input type=text placeholder="天机Axon 10 Pro"> <button></button></form></div></div><div class=stop><span>返回顶部</span></div><script>// 移入购物车展开
+    $(".Header-Top").on("mouseenter",".zx-gwc",function(){
+        $(".remind").stop().slideDown();
+    })
+    $(".Header-Top").on("mouseleave",".zx-gwc",function(){
+        $(".remind").stop().slideUp();
+    })
+
+    // 导航下拉
+    function getlist() {
+        $.ajax({
+            url:"../lib/nav_top.json",
+            dataType:"json",
+            success:function(res) {
+
+                // 移入移出
+                $('.Header-Bot ul>li.a1').on({
+                    mouseenter: () => $('.Down-Nav').stop().slideDown(),
+                    mouseleave: () => $('.Down-Nav').stop().slideUp()
+                }).on("mouseover",function(){
+                    const index = $(this).index()
+                    const list = res[index].list
+                    let str = ''
+                    list.forEach(item => {
+                        str += `
+                            <li>
+                                <a href="">
+                                    <img src="${ item.list_url }" alt="">
+                                    <p>${ item.list_name }</p>
+                                    <div class="goods">${ item.list_price - 100 }<del>${ item.list_price}</del></div>
+                                </a>
+                            </li>
+                        `
+                    })
+                    $('.Down-Nav ol').html(str)
+
+                })
+
+                $(".Down-Nav").on({
+                    mouseover: function () { $(this).finish().show() },
+                    mouseout: function () { $(this).finish().slideUp() }
+                })
+
+            }
+        })
+    }
+
+    getlist();
+
+    // 返回顶部
+    $(window).scroll( () => {
+        if( $(window).scrollTop() >= 300 ) {
+            $(".stop").show();
+        }else{
+            $(".stop").hide();
+        }
+    })
+
+    $(".stop").click( () => {
+        $("html").animate( {
+            scrollTop:0
+        },1000)
+    })</script>

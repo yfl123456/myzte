@@ -40,6 +40,8 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
         // 点击添加购物车
         $('.addCart').click(() => { //添加点击事件
 
+        alert("加入成功");
+
         // 加入到购物车数组里面
         const cartList = JSON.parse(localStorage.getItem('cartList')) || []
 
@@ -66,7 +68,7 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
 
             // 多添加一些信息
             info.xiaoji = info.age // 因为默认是第一个, 小计就是单价
-            info.isSelect = false // 默认不选中
+            info.isSelect = true // 默认选中
             cartList.push(info)
         }
 
